@@ -1,7 +1,7 @@
 """
 calculator.py
 - Defines functions used to create a simple calculator
-
+testing....
 One function per operation, in order.
 """
 import math
@@ -36,5 +36,7 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a**b
+
+print('hello world')
 
 print(exponent(2,3))
