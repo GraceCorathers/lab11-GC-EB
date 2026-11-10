@@ -12,8 +12,8 @@ def square_root(a):
         raise ValueError('invalid input')
 
 def hypotenuse(a, b):
-    math.hypot(a, b)
-
+    c = (a**2 + b**2)**0.5
+    return c
 
 def add(a, b):
     return a + b
