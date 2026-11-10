@@ -29,4 +29,6 @@ def logarithm(a, b):
 def exponent(a, b):
     return a**b
 
+print('hello world')
+
 print(exponent(2,3))
