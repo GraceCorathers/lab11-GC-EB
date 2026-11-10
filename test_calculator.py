@@ -15,15 +15,15 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 1
     def test_multiply(self): # 3 assertions
-        self.assertEqual(multiply(3, 4), 12)
-        self.assertEqual(multiply(-2, 5), -10)
-        self.assertEqual(multiply(0, 8), 0)
+        self.assertEqual(mul(3, 4), 12)
+        self.assertEqual(mul(-2, 5), -10)
+        self.assertEqual(mul(0, 8), 0)
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(divide(2, 10), 5)
-        self.assertEqual(divide(4, 20), 5)
+        self.assertEqual(div(2, 10), 5)
+        self.assertEqual(div(4, 20), 5)
         with self.assertRaises(ZeroDivisionError):
-            divide(0, 10)
+            div(0, 10)
     # ##########################
 
     ######## Partner 2
